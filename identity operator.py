@@ -1,0 +1,5 @@
+number1=input("enter first number ")
+number2=input("enter the second number")
+print(id(number1))
+print(id(number2))
+print(number1 is number2)

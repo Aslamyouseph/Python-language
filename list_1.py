@@ -1,0 +1,9 @@
+l1=input("Enter the first row : ")
+l2=input("Enter the second row : ")
+l3=input("Enter the third row : ")
+r1=l1.split(",")
+r2=l2.split(",")
+r3=l3.split(",")
+num=input("Enter the numbe : ")
+num1=num[0]
+num2=num[1]

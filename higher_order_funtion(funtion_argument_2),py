@@ -1,0 +1,12 @@
+def louder(name):
+    print(f"Hi {name.upper()}")
+
+def softer(name):
+    print(f"Hi {name.lower()}")
+
+def display(other_funtion_argument,name1): #louder & softer  will enter into the other_funtion_argument ,name will enter to the  name1 
+    print("WE are in the display() block ")
+    other_funtion_argument(name1) #other_funtion_argument will contain the funtion name (louder,softer ) , name1 will contain the name ,then the control will move to the line 1
+
+display(louder,"aslam")# in here louder is the funtion name ,control will goes to the 7 line 
+display(softer,"aslam")# in here softer is the funtion name 
